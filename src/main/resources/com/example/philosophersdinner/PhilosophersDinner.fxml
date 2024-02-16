@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.philosophersdinner.PhilosophersDinnerController">
+   <children>
+      <ImageView fitHeight="526.0" fitWidth="585.0" layoutX="231.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Table With Plates.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Nietzsche" fitHeight="150.0" fitWidth="200.0" layoutX="400.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Nietzsche.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Descartes" fitHeight="150.0" fitWidth="200.0" layoutX="84.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Rene Descartes.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Sartre" fitHeight="150.0" fitWidth="200.0" layoutX="84.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Jean Paul Sartre.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Schopenhauer" fitHeight="150.0" fitWidth="200.0" layoutX="669.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Arthur Schopenhauer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Camus" fitHeight="150.0" fitWidth="200.0" layoutX="641.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Albert Camus.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ChopStick5" fitHeight="70.0" fitWidth="70.0" layoutX="347.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/ChopStick.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ChopStick1" fitHeight="70.0" fitWidth="70.0" layoutX="484.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true" rotate="81.7">
+         <image>
+            <Image url="@Images/ChopStick.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ChopStick4" fitHeight="70.0" fitWidth="70.0" layoutX="300.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true" rotate="-63.4">
+         <image>
+            <Image url="@Images/ChopStick.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ChopStick3" fitHeight="70.0" fitWidth="70.0" layoutX="413.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true" rotate="-132.7">
+         <image>
+            <Image url="@Images/ChopStick.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ChopStick2" fitHeight="70.0" fitWidth="70.0" layoutX="533.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true" rotate="137.6">
+         <image>
+            <Image url="@Images/ChopStick.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
